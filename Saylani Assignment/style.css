@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.bg-color{
+    transition: all .9s;
+    border-radius: 0.9rem;
+}
+.bg-color:hover{
+    border-radius: .9rem;
+    background-color:#CCE5FF;
+    color:#212529;
+}
+.bg-color-bv{
+    background-color: #CCE5FF;
+}
+.jumbotron {
+    position: relative;
+    left: 25%;
+    padding: 2% 3%;
+    margin-bottom: 2%;
+    background-color: #e9ecef;
+    border-radius: .5%;
+    width: 50%;
+}
+#floatingInput{
+    border-radius: 1.0rem; ;
+}
+.btn-dark,.btn-info{
+    float:right;
+    
+} 
+.btn-dark{
+    margin-top:0.6rem;
+    padding: .3rem .5rem;
+}
+img{
+    height: 4rem;
+    width: 4rem;
+}
+.formInline{
+    inline-size: 55.5%;
+    position: relative;
+    left: 26.9%;
+}
+#SignUpbtn,#SignInbtn{
+    padding: 0.5% 4%;
+    font-weight: 500;
+    position: relative;
+}
+#SignUpbtn{
+    left:66%;
+}
+#SignInbtn{
+    left:11.0%;
+}
